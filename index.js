@@ -6,4 +6,9 @@ const birthdayEl = document.getElementById("birthdayScreen")
 calendar22El.addEventListener("click" , function(){
     calendar22El.style.display = "none"
     calendar23El.style.display = "flex"
+    setTimeout(function(){
+        calendarEl.style.display = "none"
+        birthdayEl.style.display = "flex"
+
+    }, 1500)
 })
